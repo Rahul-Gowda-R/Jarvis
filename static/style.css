@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+    color: #00ffe7;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .jarvis-ui {
+    text-align: center;
+    padding: 40px;
+    border-radius: 15px;
+    backdrop-filter: blur(12px);
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 20px #00ffe7;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  .title {
+    font-size: 2em;
+    color: #00ffe7;
+    margin-bottom: 20px;
+  }
+  
+  .input-panel input {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    margin-right: 10px;
+    background: #101820;
+    color: #00ffe7;
+  }
+  
+  .input-panel button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #00ffe7;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .display-panel {
+    margin: 20px 0;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+  }
+  
+  .info-panels {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .panel {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    width: 45%;
+  }
+  
+  
